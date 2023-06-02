@@ -29,3 +29,8 @@ data = Label(root, bg='#1d1d1d', fg='#8e27ea', font=('Montserrat', 14))
 data.pack(pady=2)
 horas = Label(root, bg='#1d1d1d', fg='#8e27ea', font=('Montserrat', 64, 'bold'))
 horas.pack(pady=2)
+
+get_saudacao()
+get_data()
+get_horas()
+root.mainloop()
