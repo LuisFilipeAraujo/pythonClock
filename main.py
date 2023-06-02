@@ -23,3 +23,9 @@ def get_horas():
 
 tela = tk.Canvas(root, width=600, height=60, bg='#1d1d1d', bd=0, highlightthickness=0, relief='ridge')
 tela.pack()
+saudacao = Label(root, bg='#1d1d1d', fg='#8e27ea', font=('Montserrat', 16))
+saudacao.pack()
+data = Label(root, bg='#1d1d1d', fg='#8e27ea', font=('Montserrat', 14))
+data.pack(pady=2)
+horas = Label(root, bg='#1d1d1d', fg='#8e27ea', font=('Montserrat', 64, 'bold'))
+horas.pack(pady=2)
